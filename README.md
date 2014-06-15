@@ -18,4 +18,4 @@ Standard Error Bars http://www.mathworks.com/matlabcentral/fileexchange/26311-sh
 In here are a collection of matlab functions that will help you preprocess the MEG data, including ICA noise detection, motion detection, and trial rejection.
 In addition, there are a few other matlab functions that will do wavelect, oscillatory power, and PLV analyses.
 
-Other example scripts including scripts for calling MNE binaries to calculate head model, perform the overall MNE pipeline, and example setup files for averaging and calculating noise covariance. 
+Other example scripts including scripts for running maxfilter (on wallace), calling MNE binaries to calculate head model, perform the overall MNE pipeline, and example setup files for averaging and calculating noise covariance. 
