@@ -1,13 +1,15 @@
 MEG_Scripts
 ===========
+Scripts for analyzing MEG data
 
 First make sure you read through our wiki pages for an overview
-\n
+
 http://arnold.wpic.upmc.edu/dokuwiki/doku.php?id=howto:meg:process_meg_data
-\n
+
 http://arnold.wpic.upmc.edu/dokuwiki/doku.php?id=howto:meg:meg
 
-Scripts for analyzing MEG data
+
+
 
 You will need the following install.
 
