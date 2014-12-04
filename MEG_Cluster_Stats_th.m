@@ -34,7 +34,10 @@ function [ Stats, Clusters, Clust_Masks, Sig_Mask, Clust_Pvals, Sig_Pvals, Null_
 %   Null_clust_mass - Null distribution of cluster mass.
 %
 %
-%   Last update by Kai. May 10, 2013.  
+%   Last update by Kai. 11. 20, 2014.
+
+% Log:
+% 11.20.2104 - update to allow 3 dimension permutation
 
 %peform permutation test.
 [Stats, df, ~, surrog]=statcond({Data1 Data2},'mode','perm','naccu',nPerm);
@@ -80,6 +83,7 @@ for i = 1:nPerm
     end
     Null_clusts_mass(i) = null_clust_mass;
 end
+Null_clusts_mass(Null_clusts_mass==0)=[];
 
 %get p values for Test_stat_clusts_mass
 Clust_Pvals = zeros(length(Test_stat_clusts_mass),1);

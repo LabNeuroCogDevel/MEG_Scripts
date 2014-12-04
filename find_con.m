@@ -9,11 +9,11 @@ for i =1:length(idx)-1
     
     %start(i) = idx(i)
     if idx(i+1) ~= idx(i)+1
-        Endi=[Endi,idx(i)]
-        starti=[starti,idx(i+1)]
+        Endi=[Endi,idx(i)];
+        starti=[starti,idx(i+1)];
     end
         
     
 end
-Endi=[Endi,idx(end)]
+Endi=[Endi,idx(end)];
 end
